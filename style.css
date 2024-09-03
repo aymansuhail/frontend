@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#nav {
+  height: 10%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 0 90px;
+}
+#nav h4 {
+  color: rgb(0, 0, 0);
+
+  font-weight: 600;
+}
+#nav i {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  font-weight: 500;
+}
+#center {
+  padding: 30px 60px;
+  height: 60%;
+  background-color: rgb(255, 255, 255);
+}
+#center h1 {
+  font-size: 70px;
+
+  line-height: 8 0px;
+
+  font-weight: 50;
+}
+#center-in {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+}
+#center-in p {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+}
+#center-in-right {
+  width: 20%;
+}
+
+.elem {
+  margin: 5px;
+  padding: 15px 0;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.elem i {
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0;
+}
+.elem a {
+  color: black;
+  text-decoration: none;
+}
+.elem:hover i {
+  opacity: 1;
+}
+.elem:hover {
+  background: #eae9e9;
+}
+.elem:hover a {
+  text-decoration: underline;
+}
+
+#bottom {
+  height: 30%;
+  width: 100%;
+  background-image: url(https://media.istockphoto.com/id/1361732125/photo/beauty-portrait-of-african-american-girl-with-afro-hair.jpg?s=1024x1024&w=is&k=20&c=mWe1FoIGqOovTuUfbe2q1_KnGvL44k2nSM1dH8EBWgE=);
+  background-size: cover;
+  background-position: 0 50%;
+}
